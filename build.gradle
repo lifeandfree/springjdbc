@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+group 'ru.innopolis'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation "ch.qos.logback:logback-classic:1.2.3"
+    implementation "org.springframework:spring-orm:5.2.8.RELEASE"
+    implementation "org.springframework:spring-context:5.2.8.RELEASE"
+    implementation "org.postgresql:postgresql:42.2.14"
+
+}
+
+
